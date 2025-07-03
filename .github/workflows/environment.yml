@@ -1,0 +1,14 @@
+name: my-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.13
+  - pygame
+  - pandas
+  - numpy
+  - matplotlib
+  - pip
+  - pip:
+      - requests
+      - flask
